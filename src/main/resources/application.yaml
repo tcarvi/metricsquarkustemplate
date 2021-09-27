@@ -1,0 +1,42 @@
+# des profile
+"%des":
+  injected:
+    value: Injected value des
+  value: lookup value des
+
+# hml profile
+"%testing":
+  injected:
+    value: Injected value testing
+  value: lookup value testing
+
+# hml profile
+"%hml":
+  injected:
+    value: Injected value hml
+  value: lookup value hml
+
+# prd profile
+"%prod":
+  injected:
+    value: Injected value prd
+  value: lookup value prd
+
+# Default Values
+
+injected:
+  value: Injected value Default
+
+value: lookup value Default
+
+quarkus:
+  package:
+    output-name: restquarkustemplate
+  ssl:
+    native: true
+
+mp:
+  fault:
+    tolerance:
+      interceptor:
+        priority: 3000
