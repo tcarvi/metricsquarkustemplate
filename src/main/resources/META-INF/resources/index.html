@@ -2,17 +2,55 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Codificação normatizada por microprofile-metrics, para modelo de codificação Quarkus.</title>
+    <title>Implementação de microprofile-metrics, para modelo de uso de Quarkus</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma"   content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Padronização para design de browsers -->
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <!-- Design da página -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 
 <body>
-<h3>Implementação baseada no conjunto de normas de <a href="https://github.com/eclipse/microprofile/tree/3.3">Microprofile 3.3</a></h3>
-<h4>Trata mais especificamente da especificação <a href="https://github.com/eclipse/microprofile-rest-client">"eclipse/microprofile-rest-client"</a>.</h4>
-<h4>Última versão implementada em Quarkus: <a href="https://github.com/eclipse/microprofile-config/releases/tag/1.4">eclipse/microprofile-config 1.4</a>.</h4>
-<h2><i>Endpoints:</i></h2>
-<h3><a href="aplicationName/restClient" target="_blank" >aplicationName/restClient</a></h3>
-<h3><a href="aplicationName/restClient" target="_blank" >aplicationName/restClient?name=ParamName</a></h3>
-
+<div id="container">
+<h2>Padrões usados neste projeto:</h2>
+<p>Microprofile em <a href="https://projects.eclipse.org/projects/technology.microprofile" target="_blank"><i>projects.eclipse.org</i></a></p>
+<p>Microprofile 3.3 em <a href="https://github.com/eclipse/microprofile/tree/3.3" target="_blank"><i>github.com/eclipse</i></a></p>
+<p>Framework <a href="http://quarkus.io/" target="_blank">Quarkus</a></p>
+<h2>Especificações implementadas neste projeto:</h2>
+<p>Especificação <a href="https://microprofile.io/project/eclipse/microprofile-metrics">microprofile-metrics</a></p>
+<p>Versão implementada em Quarkus: <a href="https://github.com/eclipse/microprofile-metrics/tree/2.2">microprofile-metrics 2.2</a></p>
+<h2><i>Endpoints que geram dados para "metrics:</i></h2>
+<ul>
+<li><a href="/aplicationName/restClient/gauge/1" target="_blank">/aplicationName/restClient/gauge/{number=1}</a></li>
+<li><a href="/aplicationName/restClient/gauge/2" target="_blank">/aplicationName/restClient/gauge/{number=2}</a></li>
+<li><a href="/aplicationName/restClient/gauge/3" target="_blank">/aplicationName/restClient/gauge/{number=3}</a></li>
+<li><a href="/aplicationName/restClient/gauge/4" target="_blank">/aplicationName/restClient/gauge/{number=4}</a></li>
+<li><a href="/aplicationName/restClient/gauge/5" target="_blank">/aplicationName/restClient/gauge/{number=5}</a></li>
+<li><a href="/aplicationName/restClient/gauge/6" target="_blank">/aplicationName/restClient/gauge/{number=6}</a></li>
+<li><a href="/aplicationName/restClient/gauge/7" target="_blank">/aplicationName/restClient/gauge/{number=7}</a></li>
+<li><a href="/aplicationName/restClient/gauge/8" target="_blank">/aplicationName/restClient/gauge/{number=8}</a></li>
+<li><a href="/aplicationName/restClient/gauge/9" target="_blank">/aplicationName/restClient/gauge/{number=9}</a></li>
+<li><a href="/aplicationName/restClient/gauge/10" target="_blank">/aplicationName/restClient/gauge/{number=10}</a></li>
+<li><a href="/aplicationName/restClient/prime/1" target="_blank">/aplicationName/restClient/prime/{number=1}</a></li>
+<li><a href="/aplicationName/restClient/prime/2" target="_blank">/aplicationName/restClient/prime/{number=2}</a></li>
+<li><a href="/aplicationName/restClient/prime/3" target="_blank">/aplicationName/restClient/prime/{number=3}</a></li>
+<li><a href="/aplicationName/restClient/prime/4" target="_blank">/aplicationName/restClient/prime/{number=4}</a></li>
+<li><a href="/aplicationName/restClient/prime/5" target="_blank">/aplicationName/restClient/prime/{number=5}</a></li>
+<li><a href="/aplicationName/restClient/prime/6" target="_blank">/aplicationName/restClient/prime/{number=6}</a></li>
+<li><a href="/aplicationName/restClient/prime/7" target="_blank">/aplicationName/restClient/prime/{number=7}</a></li>
+<li><a href="/aplicationName/restClient/prime/8" target="_blank">/aplicationName/restClient/prime/{number=8}</a></li>
+<li><a href="/aplicationName/restClient/prime/9" target="_blank">/aplicationName/restClient/prime/{number=9}</a></li>
+<li><a href="/aplicationName/restClient/prime/10" target="_blank">/aplicationName/restClient/prime/{number=10}</a></li>
+</ul>
+<h2><i>Endpoints para consulta de "metrics":</i></h2>
+<ul>
+<li><a href="q/metrics" target="_blank">q/metrics</a></li>
+</ul>
+</div>
 </body>
+
 </html>

@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#container{
+    width: 100%;
+    height: 100%;
+    padding: 0.3em;
+}
+
+/* Baixa resolucao (até 359px) - celulares */
+@media only screen and (max-width: 359px) {
+ 
+}
+
+/* Baixa resolucao (360px to 479px) - celulares e tablets de baixa resolucao */
+@media only screen and (min-width: 360px) {
+ 
+}
+
+/* Baixa resolucao (480px to 767px) - celulares e tablets */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Baixa resolucao (550px to 767px) - celulares e tablets */
+@media only screen and (min-width: 550px) {
+
+}
+
+/* Baixa resolucao (480px to 767px) - celulares e tablets */
+@media only screen and (min-width: 620px) {
+
+}
+
+/* Baixa resolucao (768px to 799px) - celulares e tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* A partir de 800, a largura não aumenta */
+/* Baixa resolucao (800px ate 979) - celulares e tablets */
+@media only screen and (min-width: 800px) {
+
+}
+
+/* Alta resolucao (iPhone) */
+@media only screen and (min-width: 800px) and (-webkit-min-device-pixel-ratio:1) {
+
+}
+
+/* Resolucao Media (980px ate 1279px) - desktops e celulares de alta definicao */
+@media only screen and (min-width: 980px) {
+
+}
+
+/* Alta resolucao (1280px ate 1919px) - desktops tela cheia */
+@media only screen and (min-width: 1280px) {
+
+}
+
+/* Alta resolucao (1920px e acima) - desktops tela cheia */
+@media only screen and (min-width: 1920px) {
+
+}
